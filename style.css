@@ -1,5 +1,5 @@
 *{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 @font-face {
@@ -8,30 +8,77 @@
 }
 /*fond*/
 .fond {
-    background-color: #677E52;
+  /*  background-color: #677E52;*/
+    margin: 0;
 }
 
+.hr {
+    z-index: 0;
+    position: relative;
+    background-color: #677e52;
+    margin: 0;
+    border: 65px solid #677e52;
+}
+.hr2 {
+    z-index: 0;
+    position: relative;
+    background-color: #677e52;
+    margin: 0;
+    border: 22px solid #677e52;
+    margin: -7px;
+}
 
 /*head*/
 .headfond {
     background-color: white;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.headergauche{
+    width: 8%;   
+}
+
+.headerdroite {
+    width: 92%;
+    text-align: right;
+    transform: translateY(30%);
+}
+.connect {
+    background-color: #677e52;
+    display: inline;
+    padding: 2% 0% 2% 2%;
+    border-radius: 50px;
+    margin-right: 2%;
+
 }
 .img {
-    width: 8%;
+    width: 100%;
 }
+
 .lien {
     color: #2c2c2c;
     text-decoration: none;
     font-family: "caroline";
-    font-size: 1.5em;
+    font-size: 1.8em;
+    margin-right: 2%;
+
+    vertical-align: middle;
 }
 
 /*section1*/
 .img1 {
     width: 100%;
+    height: 37vw;
 }
 .img2 {
     width: 37%;
+    position: absolute;
+    left:  0px;
+    right:  0px;
+    margin : auto;
 }
 .img3 {
     width: 10%;
@@ -93,4 +140,17 @@
     width: 20%;
 }
 
+#connectlogo{
+    margin-right: 10px;
+    width: 20px;
+    vertical-align: sub;
+}
+#connect {
+    width: 20px;
+    vertical-align: sub;
+}
 
+
+.bandeau {
+  
+}
