@@ -1,0 +1,96 @@
+*{
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "caroline";
+    src: url("./font/caroline.otf");
+}
+/*fond*/
+.fond {
+    background-color: #677E52;
+}
+
+
+/*head*/
+.headfond {
+    background-color: white;
+}
+.img {
+    width: 8%;
+}
+.lien {
+    color: #2c2c2c;
+    text-decoration: none;
+    font-family: "caroline";
+    font-size: 1.5em;
+}
+
+/*section1*/
+.img1 {
+    width: 100%;
+}
+.img2 {
+    width: 37%;
+}
+.img3 {
+    width: 10%;
+}
+
+/*section2*/
+.imgfemme {
+    width: 20%;
+}
+
+/*section3*/
+.imgnoeud {
+    width: 10%;
+}
+.imgmaille {
+    width: 10%;
+}
+.img-play-youtube {
+    width: 5%;
+}
+.img-logo-youtube {
+    width: 10%;
+}
+
+/*section4*/
+.img-sac {
+    width: 15%;
+}
+.img-panier {
+    width: 15%;
+}
+.img-pull {
+    width: 15%;
+}
+
+/*feuilles*/
+.img4 {
+    width: 20%;
+}
+.img5 {
+    width: 20%;
+}
+.img6 {
+    width: 20%;
+}
+.img7 {
+    width: 20%;
+}
+.img8 {
+    width: 20%;
+}
+.img9 {
+    width: 20%;
+}
+.img10 {
+    width: 20%;
+}
+.img11 {
+    width: 20%;
+}
+
+
