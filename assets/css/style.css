@@ -18,7 +18,7 @@
 }
 
 /*fond*/
-.fond {
+body {
     margin: 0;
     font-size: 16px;
 }
@@ -60,7 +60,7 @@
     margin-right: 3%;
 }
 
-/*SECTION 1*/
+/*SECTION 1 BONJOUR*/
 hr {
     border: 10px solid var(--dark-green);
     margin: 0;
@@ -83,22 +83,19 @@ hr {
     transform: translateY(-65%);
     left:-20px
 }
-.img5{
+.imgfeuille1{
     position: absolute;
-    transform: rotate(250deg);
-    left:-100px;
-    margin-top: 50px;
+    left: 0;
+ 
 }
-.img7{
+.imgfeuille2{
     position: absolute;
-    transform: rotate(235deg);
-    right:-60px;
-    margin-top: 250px;
     width: 20%;
+    right: 0;
 }
 
 }
-/*SECTION2*/
+/*SECTION2 PRESENTATION*/
 .container {
     /* width: 78%; */
     margin: auto;
@@ -111,34 +108,22 @@ hr {
 .imgfemme {
     width: 20%;
 }
-.img4{
+.imgfeuille3{
     position: absolute;
-    transform: rotate(110deg);
-    left: -60px;
-    margin-top: 350px;
     width: 20%;
+    left: 0;
 }
-.img6{
+.imgfeuille4{
     position: absolute;
-    transform: rotate(60deg);
-    right: -60px;
-    margin-top: 350px;
     width: 20%;
+    right: 0;
 }
 
-/*SECTION 3*/
+        /*SECTION 3 'DES ASTUCES*/
 
-/* hr */
-#trait-fin{
-    border: 1px solid rgb(230, 216, 216);
-    width: 80%;
-    margin: auto;
-    opacity: 0.5;
-    position: relative;
-    top:60px;
-    z-index: 0;
-}
-/* h1 Des astuces pour */
+
+/* création h1 'Des astuces pour...' avec un width 
+pour réduire ou augmenter l'espacement entre les lettres et le trait*/
 section .titre{
     font-family: "caroline";
     font-size: 4em;
@@ -150,20 +135,8 @@ section .titre{
     position: relative;
     z-index: 1;
 }
-/* h1 Ainsi que pleins... */
-section .titre2{
-    font-family: "caroline";
-    font-size: 4em;
-    font-weight: lighter;
-    text-align: center;
-    width: 520px;
-    margin: auto;
-    background-color:white;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 20px;
-}
 
+/* création des 2 h2 'Faire un noeud' et 'Monter des mailles' centrés */
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2em;
@@ -171,27 +144,27 @@ h2 {
     justify-content: center;
 }
 
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2em;
-    text-align: center;
-}
-/* marge bottom sur p de la section 3 */
-.mbottom{
-    width: 35%;
-    margin: auto;
-    margin-bottom: 10%;
-}
-/* card avec photo section 3 */
+
+/* création div englobant 3 cards dans la section 3'Des astuces*/
 section .cards{
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     margin-bottom: 50px;
-    
 }
-/* card logo youtube */
+
+/* création paragraphe de la section 3 'Des astuces' */
+.para-section-3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+/* configuration card logo youtube centré et l'un au dessus de l'autre*/
 .imgyoutube{
     display: flex;
     flex-direction: column;
@@ -213,29 +186,55 @@ section .cards{
 .img-logo-youtube{
     width: 60%;
 }
+
 /* 2 feuilles section 3 */
-.img8{
+.imgfeuille5{
     position: absolute;
-    transform: rotate(50deg);
-    left: -60px;
     width: 18%;
-    margin-top: 400px;
+    left: 0;
 }
-.img9{
+.imgfeuille6{
     position: absolute;
-    transform: rotate(-80deg);
-    right: -60px;
     width: 18%;
+    right: 0;
 }
 
-/*SECTION 4*/
+/* création du hr avec un z-index à 0 par rapport au h1
+pour effet trait coupé avec le background white du h1*/
+#trait-fin{
+    border: 1px solid rgb(230, 216, 216);
+    width: 80%;
+    margin: auto;
+    opacity: 0.5;
+    position: relative;
+    top:60px;
+    z-index: 0;
+}
 
-/* div des 3 photos */
+        /*SECTION 4 'DES PRODUITS*/
+
+/* création h1 'Des produits...'avec un width différent du premier h1
+pour réduire ou augmenter l'espacement entre les lettres et le trait */
+section .titre2{
+    font-family: "caroline";
+    font-size: 4em;
+    font-weight: lighter;
+    text-align: center;
+    width: 520px;
+    margin: auto;
+    background-color:white;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+/* div englobant les 3 photos de la section 4'Des produits' pour les centrer */
 section .photovales{
     display: flex;
     justify-content: center;
     gap: 120px;
 }
+
 /* redimension des 3 photos */
 .img-sac {
     width: 15%;
@@ -246,24 +245,21 @@ section .photovales{
 .img-pull {
     width: 15%;
 }
-/* SECTION 6 */
-.img10{
+
+/* SECTION 6 LIV QUAL PAIE */
+.imgfeuille7{
     position: absolute;
-    transform: rotate(180deg);
-    left: -60px;
-    margin-top: 0px;
+    left: 0;
     width: 20%;
 }
-.img11{
+.imgfeuille8{
     position: absolute;
-    transform: rotate(10deg);
-    right: -60px;
-    margin-top: 0px;
+    right: 0;
     width: 20%;
 }
 
 
-/*SECTION 7*/
+/*FOOTER*/
 .france {
     width: 7%;
 }
