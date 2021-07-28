@@ -1,26 +1,36 @@
 *{
     font-size: 16px;
 }
+/*Variables*/
+:root {
+    --white: white;
+    --dark-green: #677E52;
+    --light-green: #b7ca79;
+    --grey: #b0cc99;
+    --beige: #f6e8b1;
+    --lanvander: #d1bfd5;
+    --black: #2c2c2c;
 
+}
 @font-face {
     font-family: "caroline";
-    src: url("./font/caroline.otf");
+    src: url("../../font/caroline.otf");
 }
+
 /*fond*/
 .fond {
-    /* background-color: #677E52; */
     margin: 0;
+    font-size: 16px;
 }
 
-hr {
-    border: 10px solid #677E52;
-    margin: 0;
-    margin-top: -4px;
+.centrer {
+    text-align: center;
 }
 
-/*head*/
+
+/*nav*/
 .headfond {
-    background-color: white;
+    background-color: var(--white);
     display: flex;
 }
 
@@ -43,7 +53,7 @@ hr {
 }
 
 .lien {
-    color: #2c2c2c;
+    color: var(--black);
     text-decoration: none;
     font-family: "caroline";
     font-size: 2em;
@@ -51,6 +61,12 @@ hr {
 }
 
 /*section1*/
+hr {
+    border: 10px solid var(--dark-green);
+    margin: 0;
+    margin-top: -4px;
+}
+
 .img1 {
     width: 100%;
 }
@@ -69,6 +85,15 @@ hr {
 }
 
 /*section2*/
+.container {
+    width: 78%;
+    margin: auto;
+}
+
+.polices2 p {
+    font-size: 2em;
+}
+
 .imgfemme {
     width: 20%;
 }
@@ -112,10 +137,19 @@ hr {
     width: 2%;
 }
 
+/*titre*/
+.titre {
+    align-content: center;
+}
+
 /*feuilles*/
 .img4 {
     width: 20%;
+    display: absolute;
+    transform: translateX(-100px);
+    left: 0;
 }
+
 .img5 {
     width: 20%;
 }
