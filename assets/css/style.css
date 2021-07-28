@@ -18,7 +18,8 @@
 
 }
 
-/*fond*/
+/*--- Fond Body ---*/
+
 .fond {
     margin: 0;
     font-size: 16px;
@@ -29,13 +30,16 @@
 }
 
 
-/*nav*/
+
+/*--- Barre Navigation ---*/
+
 .headfond {
     background-color: var(--white);
     display: flex;
+    align-items: center;
 }
 
-.img {
+.logo {
     width: 100%;
 }
 
@@ -46,11 +50,12 @@
 .headerdroit {
     width: 92%;
     text-align: right;
-    transform: translateY(28%);
+    margin-right: 2%;
+    font-size: 1.5em;
 }
 
 .bonhomme {
-    width: 20px;
+    width: 27px;
 }
 
 .lien {
@@ -58,114 +63,125 @@
     text-decoration: none;
     font-family: "caroline";
     font-size: 2em;
-    margin-right: 3%;
+    margin-right: 2%;
 }
 
-/*bandeau*/
+.btn {
+    text-decoration: none;
+    background-color: var(--dark-green);
+    color: var(--black);
+    padding: 23px 32px; 
+    border-radius: 100px; 
+    letter-spacing: 0.1em;
+    transition: background-color 500ms;
+    font-family: "caroline";
+    font-size: 2.3em;
+}
+
+
+/*--- Bandeau ---*/
+
+    /*traits vert*/
 hr {
     border: 10px solid var(--dark-green);
     margin: 0;
     margin-top: -4px;
 }
 
-.img1 {
+.img-jungle-bandeau {
     width: 100%;
 }
-.img2 {
+.img-logo-bandeau {
     width: 41.7%;
     position: absolute;
     left: 0%; right: 0%;
     margin: auto;
 }
 
-.img3 {
+.img-ellipse {
     width: 10%;
     position: absolute;
     transform: translateY(-65%);
-    left:-20px
+    left:-20px;
 }
 
-/*intro*/
-section .container {
-    width: 50%;
-    justify-content: space-between;
-    align-items: center;
+
+/*---Section Intro---*/
+
+.container {
+    padding-top: 5%;
+    
 }
 
-/*bonjour*/
-section .centrer p {
+    /*Entête "Bonjour"*/
+.centrer p {
     width: 83%;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 40px;
     font-family: 'Calibri', sans-serif;
     font-size: 0.5em;
-    font-weight: bolder;
-    font-size: ;
+    font-weight: bold;
     line-height: 0em;
-    margin-top: 60px;
 }
 
+    /*espace interligne*/
 .pmarge  {
     margin-bottom: 6%!important;
 }
 
-/*card imgfemme et blocktext*/
-section .intro {
+    /*souligne "vous"*/
+section div p .souligne {
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+    /*Bloc: imgfemme + blocktext*/
+.bloc {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 60px;
 }
 
-section .blocktext {
-    padding-left: 150px;
+.imgfemme {
+    width: 214%;
+    margin-left: 85px;
+}
+
+.blocktext {
+    padding-left: 203px;
     padding-right: 10px;
     font-size: 2em;
-    margin-left: 60px;
+    padding-top: 23%;
 }
 
-section .blocktext p {
-    line-height: 0.9em;
-    font-family: "caroline";
-    font-size: 0.3em;
-}
-
-/*texte -- "Dans ma famille"*/
-section h3 {
+    /*Texte Calibri "Dans ma famille"*/
+.blocktext h3 {
+    line-height: 37px;
     margin: auto;
     display: flex; 
     align-items: center; 
     justify-content: space-between;
     height: 80px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 0.20em;
+    margin-bottom: 6%;
 }
 
-.imgfemme {
-    width: 79%;
-    margin-left: 85px;
+    /*Texte Caroline "Sur ce site"*/
+section .blocktext p {
+    line-height: 0.9em;
+    font-family: "caroline";
+    font-size: 0.4em;  
+    margin-top: 20%;
 }
 
-
-
-
-
-
-
-
-
-
-section div {
-    margin: 0; 
+section .oups {
     font-size: 4em; 
-    font-weight: lighter; 
     width: 78%;
     margin: auto;
 }
-
-.polices2 p {
-    font-size: 2em;
-}
-
 
 
 
