@@ -15,6 +15,7 @@
 @font-face {
     font-family: "caroline";
     src: url("../font/caroline.otf");
+
 }
 
 /*fond*/
@@ -60,7 +61,7 @@
     margin-right: 3%;
 }
 
-/*section1*/
+/*bandeau*/
 hr {
     border: 10px solid var(--dark-green);
     margin: 0;
@@ -84,8 +85,79 @@ hr {
     left:-20px
 }
 
-/*section2*/
-.container {
+/*intro*/
+section .container {
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*bonjour*/
+section .centrer p {
+    width: 83%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'Calibri', sans-serif;
+    font-size: 0.5em;
+    font-weight: bolder;
+    font-size: ;
+    line-height: 0em;
+    margin-top: 60px;
+}
+
+.pmarge  {
+    margin-bottom: 6%!important;
+}
+
+/*card imgfemme et blocktext*/
+section .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .blocktext {
+    padding-left: 150px;
+    padding-right: 10px;
+    font-size: 2em;
+    margin-left: 60px;
+}
+
+section .blocktext p {
+    line-height: 0.9em;
+    font-family: "caroline";
+    font-size: 0.3em;
+}
+
+/*texte -- "Dans ma famille"*/
+section h3 {
+    margin: auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    height: 80px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.imgfemme {
+    width: 79%;
+    margin-left: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+section div {
+    margin: 0; 
+    font-size: 4em; 
+    font-weight: lighter; 
     width: 78%;
     margin: auto;
 }
@@ -94,9 +166,9 @@ hr {
     font-size: 2em;
 }
 
-.imgfemme {
-    width: 20%;
-}
+
+
+
 
 /*section3*/
 .imgnoeud {
