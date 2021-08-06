@@ -30,7 +30,7 @@
 }
 
 
-
+/*------------------------*/
 /*--- Barre Navigation ---*/
 
 .headfond {
@@ -78,7 +78,7 @@
     font-size: 2.3em;
 }
 
-
+/*---------------*/
 /*--- Bandeau ---*/
 
     /*traits vert*/
@@ -91,6 +91,7 @@ hr {
 .img-jungle-bandeau {
     width: 100%;
 }
+
 .img-logo-bandeau {
     width: 41.7%;
     position: absolute;
@@ -105,12 +106,11 @@ hr {
     left:-20px;
 }
 
-
+/*-------------------*/
 /*---Section Intro---*/
 
 .container {
     padding-top: 5%;
-    
 }
 
     /*Entête "Bonjour"*/
@@ -177,78 +177,11 @@ section .blocktext p {
     margin-top: 20%;
 }
 
-section .oups {
+section .oups { /*corrige la taille du texte*/
     font-size: 4em; 
     width: 78%;
     margin: auto;
 }
 
-
-
-
-/*section3*/
-.imgnoeud {
-    width: 10%;
-}
-.imgmaille {
-    width: 10%;
-}
-.img-play-youtube {
-    width: 5%;
-}
-.img-logo-youtube {
-    width: 10%;
-}
-
-/*section4*/
-.img-sac {
-    width: 15%;
-}
-.img-panier {
-    width: 15%;
-}
-.img-pull {
-    width: 15%;
-}
-
-/*section7*/
-.france {
-    width: 7%;
-}
-.facebook {
-    width: 2%;
-}
-.pinterest {
-    width: 2%;
-}
-.twitter {
-    width: 2%;
-}
-
-/*feuilles*/
-.img4 {
-    width: 20%;
-}
-.img5 {
-    width: 20%;
-}
-.img6 {
-    width: 20%;
-}
-.img7 {
-    width: 20%;
-}
-.img8 {
-    width: 20%;
-}
-.img9 {
-    width: 20%;
-}
-.img10 {
-    width: 20%;
-}
-.img11 {
-    width: 20%;
-}
-
+/*----------------------- Fin Partie Eli ----------------------------*/
 
